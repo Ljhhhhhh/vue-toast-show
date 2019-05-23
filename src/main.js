@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Toast from './lib/index'
-import './style/index.css'
+import Toast from '../lib/index'
+import '../lib/style/index.css'
 
 Vue.config.productionTip = false
 

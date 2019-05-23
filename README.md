@@ -11,14 +11,14 @@ npm install vue-toast-show -S
 
 ```javascript
 import Toast from 'vue-toast-show';
-import 'vue-toast/show/dist/style/index.css';
+import 'vue-toast-show/lib/style/index.css';
 Vue.use(Toast);
 ```
 或者使用配置
 
 ```javascript
-import Toast from 'vue2-toast';
-import 'vue-toast/show/dist/style/index.css';
+import Toast from 'vue-toast-show';
+import 'vue-toast-show/lib/style/index.css';
 Vue.use(Toast, {
     type: 'info',
     duration: 3000
@@ -88,8 +88,8 @@ Vue.use(Toast, {
 - duration : Number | 默认 1500ms
 
 
-## demo
-![image](https://raw.githubusercontent.com/lin-xin/vue-toast/master/screenshots/1.gif)
+## 演示
+![image](https://github.com/Ljhhhhhh/vue-toast-show/blob/master/preview.gif)
 
 ## 注意事项
 vue-cli3项目使用需要在vue.config.js中做以下设置：
