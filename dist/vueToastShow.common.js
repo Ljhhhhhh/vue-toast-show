@@ -1140,7 +1140,7 @@ var web_dom_iterable = __webpack_require__("ac6a");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.object.assign.js
 var es6_object_assign = __webpack_require__("f751");
 
-// CONCATENATED MODULE: ./src/lib/index.js
+// CONCATENATED MODULE: ./lib/index.js
 
 
 var Toast = {};
@@ -1252,4 +1252,4 @@ Toast.install = function (Vue, options) {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=vueToastPlugin.common.js.map
+//# sourceMappingURL=vueToastShow.common.js.map

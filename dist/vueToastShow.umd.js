@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["vueToastPlugin"] = factory();
+		exports["vueToastShow"] = factory();
 	else
-		root["vueToastPlugin"] = factory();
+		root["vueToastShow"] = factory();
 })((typeof self !== 'undefined' ? self : this), function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -1149,7 +1149,7 @@ var web_dom_iterable = __webpack_require__("ac6a");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.object.assign.js
 var es6_object_assign = __webpack_require__("f751");
 
-// CONCATENATED MODULE: ./src/lib/index.js
+// CONCATENATED MODULE: ./lib/index.js
 
 
 var Toast = {};
@@ -1262,4 +1262,4 @@ Toast.install = function (Vue, options) {
 
 /******/ });
 });
-//# sourceMappingURL=vueToastPlugin.umd.js.map
+//# sourceMappingURL=vueToastShow.umd.js.map
