@@ -1,5 +1,5 @@
 # vue-toast-show
-基于vue的toast 插件。
+基于vue的toast 插件。[git地址](https://github.com/Ljhhhhhh/vue-toast-show "vue-toast-show")
 
 ## 使用
 安装:
